@@ -1,4 +1,4 @@
-ingredients = [  "pepperoni",  "mushrooms",  "onions",  "olives",  "mozzarella cheese",  "tomato sauce",  "garlic",  "basil",  "oregano",  "bell peppers",  "jalapenos",  "pineapple",  "ham",  "bacon",  "sausage",  "chicken",  "artichokes",  "sun-dried tomatoes",  "feta cheese",  "parmesan cheese",  "ricotta cheese",  "goat cheese",  "spinach",  "arugula"]
+ingredients = [  "Pepperoni",  "Mushrooms",  "onions",  "Macon",  "mozzarella cheese",  "tomato sauce",  "Garlic",  "Beef Pepperoni",  "oregano",  "bell peppers",  "Spicy Sausage",  "pineapple",  "ham",  "Bacon",  "Sandwich Beef",  "chicken",  "Steak strips",  "Meatballs",  "Creamy Mayo",  "Beef Mince",  "Roasted Chicken",  "Chilli",  "spinach", "Marinated Tikka Chicken", "Marinated BBQ Steak", "Farmer's Choice Sausage"]
 
 pizzas = ["Hawaiian", "Chicken Ticka", "Beef Pepporoni", "Chicken Peporoni", "BBQ Chicken" ]
 
