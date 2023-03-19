@@ -11,18 +11,17 @@ class RestaurantsController < ApplicationController
         else 
             render json: { error:  "Restaurant not found" }, status: :not_found
         end
+    end
 
-        # if params[restaurant_id]
-        #     if restaurant 
-        #         restaurant = Restaurant.find_by(id: params[:id])
-        #         pizzas = restaurant.pizzas.find_by(id: params[:id])
-        #         render json: restaurant, include: :pizzas
-        #     else 
-        #         render json: { error: "Restaurant not found" }, status: :not
-        #     end
-        # else 
-        #     pizzas = Pizza.all 
-        #     render json: pizzas, include: :restaurant
-        # end
+    def destroy  
+        restaurant = Restaurant.find_by(id: params[:id])
+        if restaurant 
+            restaurant.destroy 
+            render json: 
+            head :no_content, status: :no_content
+        else 
+            render json: { error: "Restaurant not found" }, status: :not_found
+        end
+
     end
 end
