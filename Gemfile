@@ -26,8 +26,6 @@ group :development, :test do
 end
 
 group :development do
-    gem 'faker', '~> 3.1', '>= 3.1.1'
-
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
