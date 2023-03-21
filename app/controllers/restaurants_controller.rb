@@ -2,7 +2,6 @@ class RestaurantsController < ApplicationController
 
     def index 
         render json: Restaurant.all, except: [:created_at, :updated_at], include: { pizzas: { except: [:created_at, :updated_at ]}}
-
     end
 
     def show 

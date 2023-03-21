@@ -11,6 +11,8 @@ class RestaurantPizzasController < ApplicationController
         render json: { error: e.record.errors.full_messages  }, status: :unprocessable_entity
     end
 
+    private
+
     def restaurant_pizza_params 
         params.permit(:price, :pizza_id, :restaurant_id)
     end
